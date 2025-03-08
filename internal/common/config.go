@@ -1,5 +1,5 @@
 package common
 
 type Config struct {
-	DBFile string
+	DBFile string `env:"DB_FILE"`
 }
