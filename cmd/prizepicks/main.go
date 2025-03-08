@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/skhanal5/cdl-betting/internal/foo"
+)
 
 func main() {
-	fmt.Println("Hello world!")
+	fmt.Print(foo.Bar())
 }
