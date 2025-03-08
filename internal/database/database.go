@@ -1,7 +1,7 @@
 package database
 
 import (
-	"github.com/skhanal5/cdl-betting/internal/common"
+	"github.com/skhanal5/prizepicks/internal/common"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 )

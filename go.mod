@@ -1,4 +1,4 @@
-module github.com/skhanal5/cdl-betting
+module github.com/skhanal5/prizepicks
 
 go 1.23.0
 

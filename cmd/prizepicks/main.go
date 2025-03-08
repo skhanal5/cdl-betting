@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/caarlos0/env/v11"
-	"github.com/skhanal5/cdl-betting/internal/common"
-	"github.com/skhanal5/cdl-betting/internal/foo"
+	"github.com/skhanal5/prizepicks/internal/common"
+	"github.com/skhanal5/prizepicks/internal/foo"
 )
 
 func main() {
