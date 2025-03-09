@@ -1,8 +1,7 @@
 package database
 
 type Player struct {
-	ID         uint
-	Name       string
+	Name       string `gorm:"primaryKey"`
 	SeasonStat PlayerSeasonStat
 	StageStats []PlayerStageStat
 }

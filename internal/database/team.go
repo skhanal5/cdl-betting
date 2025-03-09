@@ -1,8 +1,7 @@
 package database
 
 type Team struct {
-	ID      uint
-	Name    string
+	Name    string `gorm:"primaryKey"`
 	Players []Player
 	Season  TeamSeasonStat
 	Stages  []TeamStageStat
@@ -24,8 +23,7 @@ type TeamStageStat struct {
 }
 
 type Map struct {
-	ID     uint
-	Map    string
+	Map    string `gorm:"primaryKey"`
 	Mode   string
 	Wins   int
 	Losses int
